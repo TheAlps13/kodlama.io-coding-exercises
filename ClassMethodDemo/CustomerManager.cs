@@ -10,10 +10,12 @@ namespace ClassMethodDemo
     {
         private List<Customer> _customers = new List<Customer>();
 
-        public void AddCustomer(Customer customer)
+        public Customer AddCustomer(Customer customer)
         {
             _customers.Add(customer);
             Console.WriteLine($"Customer {customer.Name} added\n");
+
+            return customer;
         }
 
         public void RemoveCustomer(Customer customer)
@@ -24,6 +26,10 @@ namespace ClassMethodDemo
                 Console.WriteLine($"Customer {customer.Name} could not be deleted\n");
         }
 
+        public Customer FindCustomer(int id)
+        {
+            return _customers.Find(c => c.Id == id);
+        }
         public void ListCustomers()
         {
             Console.WriteLine("List of customers; \n ");

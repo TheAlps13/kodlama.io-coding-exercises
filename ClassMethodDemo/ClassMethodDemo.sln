@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo.csproj", "{A106F2B6-AB2F-4EA2-B35A-088DB9CF194F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMethodDemo", "ClassMethodDemo.csproj", "{A106F2B6-AB2F-4EA2-B35A-088DB9CF194F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo.Tests", "..\ClassMethodDemo.Tests\ClassMethodDemo.Tests.csproj", "{ECB9FC52-777C-4739-AD81-031379C4D958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A106F2B6-AB2F-4EA2-B35A-088DB9CF194F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A106F2B6-AB2F-4EA2-B35A-088DB9CF194F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A106F2B6-AB2F-4EA2-B35A-088DB9CF194F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB9FC52-777C-4739-AD81-031379C4D958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB9FC52-777C-4739-AD81-031379C4D958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB9FC52-777C-4739-AD81-031379C4D958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB9FC52-777C-4739-AD81-031379C4D958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
